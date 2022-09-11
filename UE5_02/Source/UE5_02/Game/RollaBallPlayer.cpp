@@ -37,20 +37,30 @@ void ARollaBallPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	// Custom Input Axis Bindings.
+	InputComponent->BindAxis("MoveForward", Object:this, &ARollaBallPlayer::MoveForward);
+	InputComponent->BindAxis("MoveRight", Object:this, &ARollaBallPlayer::MoveRight);
+	// Custom Action Binding.
+	InputComponent->BindAction("Jump", KeyEvent:IE_Pressed, Object : this, &ARollaBallPlayer::Jump);
+
 }
 
 void ARollaBallPlayer::MoveRight(float Value)
 {
-
+	// Get The Right vector of the camera as it doesn't rotate and move the player in this direction based on the input and MoveForce.
+	const FVector Right = Camera->GetRightVector() * MoveForce * Value;
+	Mesh->AddForce(Right);
 }
 
 void ARollaBallPlayer::MoveForward(float Value)
 {
-
+	const FVector Forward = Camera->GetForwardVector() * MoveForce * Value;
+	Mesh->AddForce(Forward);
 }
 
 void ARollaBallPlayer::Jump()
 {
-
+	// Apply an impulse to the Mesh in the Z Axis.
+	Mesh->AddImpulse(FVector(InX:0, InY:0, InZ:JumpImpulse));
 }
 

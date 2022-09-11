@@ -18,3 +18,4 @@ Wszystko co jest zdefiniowane lub zadeklarowane w pliku z kodem projektu nie mo≈
 * Access Modifiers
 * Member Operators
 * Axis Mapping vs Action Mapping
+* Runtime vs Compile-Time Const
