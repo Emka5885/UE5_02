@@ -73,10 +73,10 @@ void EmptyLinkFunctionForGeneratedCodeRollaBallPlayer() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARollaBallPlayer_Statics::NewProp_Mesh_MetaData[] = {
 		{ "Category", "Components" },
-		{ "Comment", "// Definite Components\n" },
+		{ "Comment", "// Define Components\n" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Game/RollaBallPlayer.h" },
-		{ "ToolTip", "Definite Components" },
+		{ "ToolTip", "Define Components" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARollaBallPlayer_Statics::NewProp_Mesh = { "Mesh", nullptr, (EPropertyFlags)0x00200800000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARollaBallPlayer, Mesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARollaBallPlayer_Statics::NewProp_Mesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARollaBallPlayer_Statics::NewProp_Mesh_MetaData)) };
@@ -165,9 +165,9 @@ void EmptyLinkFunctionForGeneratedCodeRollaBallPlayer() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ARollaBallPlayer, ARollaBallPlayer::StaticClass, TEXT("ARollaBallPlayer"), &Z_Registration_Info_UClass_ARollaBallPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARollaBallPlayer), 104820994U) },
+		{ Z_Construct_UClass_ARollaBallPlayer, ARollaBallPlayer::StaticClass, TEXT("ARollaBallPlayer"), &Z_Registration_Info_UClass_ARollaBallPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ARollaBallPlayer), 267723288U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_2476891422(TEXT("/Script/UE5_02"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_3193827627(TEXT("/Script/UE5_02"),
 		Z_CompiledInDeferFile_FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

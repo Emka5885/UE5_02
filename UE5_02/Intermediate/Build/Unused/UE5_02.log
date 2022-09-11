@@ -1,16 +1,5 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\PM\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\PM\Documents\GitHub\UE5_02).
-  Invalidating makefile for UE5_02Editor (working set of source files changed)
-  Building UE5_02Editor...
-  Using Visual Studio 2022 14.33.31629 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Determining max actions to execute in parallel (12 physical cores, 24 logical cores)
-    Executing up to 12 processes, one per physical core
-  Building 3 actions with 3 processes...
-  [1/3] Link UnrealEditor-UE5_02.lib
-     Trwa tworzenie biblioteki C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.lib i obiektu C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.exp
-  [2/3] Link UnrealEditor-UE5_02.dll
-     Trwa tworzenie biblioteki C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.suppressed.lib i obiektu C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.suppressed.exp
-  [3/3] WriteMetadata UE5_02Editor.target
-  Total time in Parallel executor: 0,95 seconds
-  Total execution time: 2,17 seconds
+  Target is up to date
+  Total execution time: 0,92 seconds

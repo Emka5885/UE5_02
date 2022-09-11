@@ -5,6 +5,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 
+
 // Sets default values
 ARollaBallPlayer::ARollaBallPlayer()
 {
@@ -38,10 +39,10 @@ void ARollaBallPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	// Custom Input Axis Bindings.
-	InputComponent->BindAxis("MoveForward", Object:this, &ARollaBallPlayer::MoveForward);
-	InputComponent->BindAxis("MoveRight", Object:this, &ARollaBallPlayer::MoveRight);
+	InputComponent->BindAxis("MoveForward", this, &ARollaBallPlayer::MoveForward);
+	InputComponent->BindAxis("MoveRight", this, &ARollaBallPlayer::MoveRight);
 	// Custom Action Binding.
-	InputComponent->BindAction("Jump", KeyEvent:IE_Pressed, Object : this, &ARollaBallPlayer::Jump);
+	InputComponent->BindAction("Jump", IE_Pressed, this, &ARollaBallPlayer::Jump);
 
 }
 
@@ -60,7 +61,7 @@ void ARollaBallPlayer::MoveForward(float Value)
 
 void ARollaBallPlayer::Jump()
 {
-	// Apply an impulse to the Mesh in the Z Axis.
-	Mesh->AddImpulse(FVector(InX:0, InY:0, InZ:JumpImpulse));
+	//// Apply an impulse to the Mesh in the Z Axis.
+	Mesh->AddImpulse(FVector(0, 0, JumpImpulse));
 }
 
