@@ -5,3 +5,11 @@
 //Fixing Player Class
 (vs) * Ctrl+Shift+ B "Build solution"
 (vs) * Alt+F11 "Run code analysis on solution"
+
+
+
+//Elementy, które warto rozważyć:
+* Forward Declaration vs #include
+* Uproperty Specifiers
+* Access Modifiers
+* Member Operators

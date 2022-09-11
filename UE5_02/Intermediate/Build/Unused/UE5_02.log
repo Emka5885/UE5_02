@@ -1,26 +1,17 @@
-﻿  Cleaning UE5_02Editor and UnrealHeaderTool binaries...
-  Using bundled DotNet SDK
+﻿  Using bundled DotNet SDK
   Log file: C:\Users\PM\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\PM\Documents\GitHub\UE5_02).
-  Creating makefile for UE5_02Editor (no existing makefile)
-  Parsing headers for UE5_02Editor
-    Running UnrealHeaderTool "C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\UE5_02.uproject" "C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UE5_02Editor\Development\UE5_02Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\PM\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for UE5_02Editor in 0,991986 seconds
   Building UE5_02Editor...
   Using Visual Studio 2022 14.33.31629 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from UE5_02 unity file: RollaBallPlayer.cpp
   Determining max actions to execute in parallel (12 physical cores, 24 logical cores)
     Executing up to 12 processes, one per physical core
-  Building 9 actions with 9 processes...
-  [1/9] Resource Default.rc2
-  [2/9] Compile SharedPCH.Engine.ShadowErrors.cpp
-  [3/9] Compile UE5_02.cpp
-  [4/9] Compile UE5_02.init.gen.cpp
-  [5/9] Compile RollaBallPlayer.cpp
-  [6/9] Compile RollaBallPlayer.gen.cpp
-  [7/9] Link UnrealEditor-UE5_02.lib
+  Building 4 actions with 4 processes...
+  [1/4] Compile RollaBallPlayer.cpp
+  [2/4] Link UnrealEditor-UE5_02.lib
      Trwa tworzenie biblioteki C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.lib i obiektu C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.exp
-  [8/9] Link UnrealEditor-UE5_02.dll
+  [3/4] Link UnrealEditor-UE5_02.dll
      Trwa tworzenie biblioteki C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.suppressed.lib i obiektu C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.suppressed.exp
-  [9/9] WriteMetadata UE5_02Editor.target
-  Total time in Parallel executor: 32,64 seconds
-  Total execution time: 35,22 seconds
+  [4/4] WriteMetadata UE5_02Editor.target
+  Total time in Parallel executor: 1,47 seconds
+  Total execution time: 1,91 seconds
