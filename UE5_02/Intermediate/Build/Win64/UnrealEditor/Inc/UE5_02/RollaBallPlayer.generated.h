@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
+class AActor;
+struct FHitResult;
 #ifdef UE5_02_RollaBallPlayer_generated_h
 #error "RollaBallPlayer.generated.h already included, missing '#pragma once' in RollaBallPlayer.h"
 #endif
 #define UE5_02_RollaBallPlayer_generated_h
 
 #define FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_15_SPARSE_DATA
-#define FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_15_RPC_WRAPPERS
-#define FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
+#define FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execOnHit);
+
+
 #define FID_UE5_02_Source_UE5_02_Game_RollaBallPlayer_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARollaBallPlayer(); \

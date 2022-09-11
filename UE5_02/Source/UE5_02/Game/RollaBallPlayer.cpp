@@ -24,13 +24,19 @@ ARollaBallPlayer::ARollaBallPlayer()
 	// Attach the Camera to the SpringArm, Camera will now follow the SpringArm transform.
 	Camera->SetupAttachment(SpringArm);
 
+	// Set physics to True
+	Mesh->SetSimulatePhysics(true);
+
+	Mesh->OnComponentHit.AddDynamic(this, &ARollaBallPlayer::OnHit);
 }
 
 // Called when the game starts or when spawned
 void ARollaBallPlayer::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	// Account for mass in MoveForce
+	MoveForce *= Mesh->GetMass();
+	JumpImpulse *= Mesh->GetMass();
 }
 
 // Called to bind functionality to input
@@ -43,7 +49,6 @@ void ARollaBallPlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputCom
 	InputComponent->BindAxis("MoveRight", this, &ARollaBallPlayer::MoveRight);
 	// Custom Action Binding.
 	InputComponent->BindAction("Jump", IE_Pressed, this, &ARollaBallPlayer::Jump);
-
 }
 
 void ARollaBallPlayer::MoveRight(float Value)
@@ -61,7 +66,23 @@ void ARollaBallPlayer::MoveForward(float Value)
 
 void ARollaBallPlayer::Jump()
 {
+	// Cap the number of jumps we can make.   //T³umaczenie - (cap) "ogranicz"
+	if (JumpCount >= MaxJumpCount) { return; }
 	//// Apply an impulse to the Mesh in the Z Axis.
 	Mesh->AddImpulse(FVector(0, 0, JumpImpulse));
+	// Track how many times we've jumped.   //T³umaczenie - (track) "œledŸ"
+	JumpCount++;
+}
+
+void ARollaBallPlayer::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+{
+
+	// Get Direction we hit the surface on the Z axis.   //T³umaczenie - (surface) "powierzchnia"
+	const float HitDirection = Hit.Normal.Z;
+	// If it's more than 0 then we've hit something below us. 1 is flat, anything between is a slope.   //T³umaczenie - (below) "pod", (slope) "nachylenie"
+	if (HitDirection > 0)
+	{
+		JumpCount = 0;
+	}
 }
 

@@ -10,6 +10,9 @@
 (ue5) * Ctrl+Shift+N "New folder"
 Wszystko co jest zdefiniowane lub zadeklarowane w pliku z kodem projektu nie można usunąć z klasy projektu
 
+//Binding Functions
+(vs) * F12 "Go to Definition / Peek to Definition"
+
 
 
 //Elementy, które warto rozważyć:
