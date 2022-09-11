@@ -727,3 +727,5 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.09.11-11.13.36:642][706]LogSavePackage: Moving 'C:/Users/PM/Documents/GitHub/UE5_02/UE5_02/Saved/BP_Player354DFA714838CE3180BE14A268C4D94A.tmp' to 'C:/Users/PM/Documents/GitHub/UE5_02/UE5_02/Content/Blueprints/Game/BP_Player.uasset'
 [2022.09.11-11.13.36:654][706]AssetCheck: New page: Asset Save: BP_Player
 [2022.09.11-11.13.36:654][706]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Game/BP_Player.BP_Player
+[2022.09.11-11.30.16:655][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2022.09.11-11.33.10:226][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms

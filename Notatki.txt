@@ -17,3 +17,4 @@ Wszystko co jest zdefiniowane lub zadeklarowane w pliku z kodem projektu nie mo≈
 * Uproperty Specifiers
 * Access Modifiers
 * Member Operators
+* Axis Mapping vs Action Mapping
