@@ -1,4 +1,4 @@
-C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Inc\UE5_02\UE5_02.init.gen.cpp
+C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Source\UE5_02\Game\RollaBallGameModeBase.cpp
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine
 /I Runtime
@@ -277,8 +277,8 @@ C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEdito
 /FI"C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\Definitions.UE5_02.h"
 /Yu"C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UE5_02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
 /Fp"C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UE5_02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UE5_02.init.gen.cpp.lc.obj"
-/sourceDependencies"C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UE5_02.init.gen.cpp.lc.json"
+/Fo"C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\RollaBallGameModeBase.cpp.lc.obj"
+/sourceDependencies"C:\Users\EMI\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\RollaBallGameModeBase.cpp.lc.json"
 /Zc:inline
 /nologo
 /Oi

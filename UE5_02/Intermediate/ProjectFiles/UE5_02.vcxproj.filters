@@ -47,6 +47,12 @@
     <Filter Include="Source\UE5_02\Game">
       <UniqueIdentifier>{1D4C4B94-62D1-303A-9024-6F6DDB09FEFC}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\UE5_02\Game\RollaBallGameModeBase.cpp">
+      <Filter>Source\UE5_02\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_02\Game\RollaBallGameModeBase.h">
+      <Filter>Source\UE5_02\Game</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\UE5_02\Game\RollaBallPlayer.cpp">
       <Filter>Source\UE5_02\Game</Filter>
     </ClCompile>
