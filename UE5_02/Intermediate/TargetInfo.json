@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "UE5_02",
-			"Path": "C:\\Users\\PM\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02.Target.cs",
+			"Path": "C:\\Users\\EMI\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "UE5_02Editor",
-			"Path": "C:\\Users\\PM\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02Editor.Target.cs",
+			"Path": "C:\\Users\\EMI\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]

@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\PM\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02\\UE5_02.Build.cs",
-		"C:\\Users\\PM\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02.Target.cs",
-		"C:\\Users\\PM\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02Editor.Target.cs"
+		"C:\\Users\\EMI\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02\\UE5_02.Build.cs",
+		"C:\\Users\\EMI\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02.Target.cs",
+		"C:\\Users\\EMI\\Documents\\GitHub\\UE5_02\\UE5_02\\Source\\UE5_02Editor.Target.cs"
 	],
 	"EngineVersion": "5.0.3"
 }

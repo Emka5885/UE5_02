@@ -1,17 +1,5 @@
 ﻿  Using bundled DotNet SDK
-  Log file: C:\Users\PM\AppData\Local\UnrealBuildTool\Log.txt
-  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\PM\Documents\GitHub\UE5_02).
-  Building UE5_02Editor...
-  Using Visual Studio 2022 14.33.31629 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from UE5_02 unity file: RollaBallItemBase.cpp
-  Determining max actions to execute in parallel (12 physical cores, 24 logical cores)
-    Executing up to 12 processes, one per physical core
-  Building 4 actions with 4 processes...
-  [1/4] Compile RollaBallItemBase.cpp
-  [2/4] Link UnrealEditor-UE5_02.lib
-     Trwa tworzenie biblioteki C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.lib i obiektu C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.exp
-  [3/4] Link UnrealEditor-UE5_02.dll
-     Trwa tworzenie biblioteki C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.suppressed.lib i obiektu C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UnrealEditor-UE5_02.suppressed.exp
-  [4/4] WriteMetadata UE5_02Editor.target
-  Total time in Parallel executor: 1,60 seconds
-  Total execution time: 2,18 seconds
+  Log file: C:\Users\EMI\AppData\Local\UnrealBuildTool\Log.txt
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\EMI\Documents\GitHub\UE5_02).
+  Target is up to date
+  Total execution time: 1,01 seconds

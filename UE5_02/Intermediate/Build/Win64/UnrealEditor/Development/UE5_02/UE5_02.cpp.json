@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\source\\ue5_02\\ue5_02.cpp",
+        "Source": "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\source\\ue5_02\\ue5_02.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\ue5_02editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "PCH": "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\ue5_02editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
         "Includes": [
-            "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealeditor\\development\\ue5_02\\definitions.ue5_02.h",
-            "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\source\\ue5_02\\ue5_02.h"
+            "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealeditor\\development\\ue5_02\\definitions.ue5_02.h",
+            "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\source\\ue5_02\\ue5_02.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
