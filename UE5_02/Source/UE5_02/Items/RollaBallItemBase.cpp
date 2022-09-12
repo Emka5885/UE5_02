@@ -2,6 +2,7 @@
 
 
 #include "RollaBallItemBase.h"
+#include "UE5_02/Game/RollaBallPlayer.h"
 
 // Sets default values
 ARollaBallItemBase::ARollaBallItemBase()
@@ -27,10 +28,14 @@ void ARollaBallItemBase::BeginPlay()
 
 void ARollaBallItemBase::OverlapBegin(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-
+	if (Cast<ARollaBallPlayer>(OtherActor) != nullptr)
+	{
+		Collected();
+	}
 }
 
 void ARollaBallItemBase::Collected_Implementation()
 {
+	// TODO - Do Game Mode Stuffs
 
 }

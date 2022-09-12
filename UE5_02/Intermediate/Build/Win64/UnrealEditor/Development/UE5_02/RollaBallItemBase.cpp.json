@@ -7,7 +7,9 @@
         "Includes": [
             "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealeditor\\development\\ue5_02\\definitions.ue5_02.h",
             "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\source\\ue5_02\\items\\rollaballitembase.h",
-            "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_02\\rollaballitembase.generated.h"
+            "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_02\\rollaballitembase.generated.h",
+            "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\source\\ue5_02\\game\\rollaballplayer.h",
+            "c:\\users\\pm\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealeditor\\inc\\ue5_02\\rollaballplayer.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
