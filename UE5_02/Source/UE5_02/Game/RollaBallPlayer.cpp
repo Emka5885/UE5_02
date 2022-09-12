@@ -79,6 +79,10 @@ void ARollaBallPlayer::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherAct
 
 	// Get Direction we hit the surface on the Z axis.   //T³umaczenie - (surface) "powierzchnia"
 	const float HitDirection = Hit.Normal.Z;
+
+	//Test HitDirection
+	//GEngine->AddOnScreenDebugMessage(-1, 0.1f, FColor::Orange, FString::Printf(TEXT("Z Normal: %f"), HitDirection));
+	
 	// If it's more than 0 then we've hit something below us. 1 is flat, anything between is a slope.   //T³umaczenie - (below) "pod", (slope) "nachylenie"
 	if (HitDirection > 0)
 	{

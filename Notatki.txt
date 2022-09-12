@@ -13,6 +13,9 @@ Wszystko co jest zdefiniowane lub zadeklarowane w pliku z kodem projektu nie mo�
 //Binding Functions
 (vs) * F12 "Go to Definition / Peek to Definition"
 
+//Simple Debugging
+(vs) * Ctrl+K, Ctrl+C "Comment"
+
 
 
 //Elementy, które warto rozważyć:
