@@ -7,8 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UE5_02Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UE5_02.cpp.obj"
 "C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\RollaBallPlayer.cpp.obj"
+"C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UE5_02.cpp.obj"
+"C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\RollaBallItemBase.cpp.obj"
+"C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\RollaBallItemBase.gen.cpp.obj"
 "C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\RollaBallPlayer.gen.cpp.obj"
 "C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\UE5_02.init.gen.cpp.obj"
 "C:\Users\PM\Documents\GitHub\UE5_02\UE5_02\Intermediate\Build\Win64\UnrealEditor\Development\UE5_02\Default.rc2.res"

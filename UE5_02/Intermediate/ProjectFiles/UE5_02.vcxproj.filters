@@ -23,6 +23,9 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Config\HoloLens">
       <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
     </Filter>
@@ -32,12 +35,6 @@
     <Filter Include="Source\UE5_02">
       <UniqueIdentifier>{633E7637-4060-3DF6-9A4A-277EED5D4BE2}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\UE5_02\RollaBallPlayer.cpp">
-      <Filter>Source\UE5_02</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\UE5_02\RollaBallPlayer.h">
-      <Filter>Source\UE5_02</Filter>
-    </ClInclude>
     <None Include="..\..\Source\UE5_02\UE5_02.Build.cs">
       <Filter>Source\UE5_02</Filter>
     </None>
@@ -46,6 +43,24 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\UE5_02\UE5_02.h">
       <Filter>Source\UE5_02</Filter>
+    </ClInclude>
+    <Filter Include="Source\UE5_02\Game">
+      <UniqueIdentifier>{1D4C4B94-62D1-303A-9024-6F6DDB09FEFC}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UE5_02\Game\RollaBallPlayer.cpp">
+      <Filter>Source\UE5_02\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_02\Game\RollaBallPlayer.h">
+      <Filter>Source\UE5_02\Game</Filter>
+    </ClInclude>
+    <Filter Include="Source\UE5_02\Items">
+      <UniqueIdentifier>{0C5CE2D2-709C-3832-A313-1B66A9C029B8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\UE5_02\Items\RollaBallItemBase.cpp">
+      <Filter>Source\UE5_02\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_02\Items\RollaBallItemBase.h">
+      <Filter>Source\UE5_02\Items</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

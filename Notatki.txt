@@ -25,3 +25,4 @@ Wszystko co jest zdefiniowane lub zadeklarowane w pliku z kodem projektu nie mo≈
 * Member Operators
 * Axis Mapping vs Action Mapping
 * Runtime vs Compile-Time Const
+* UE5 Inheritance
