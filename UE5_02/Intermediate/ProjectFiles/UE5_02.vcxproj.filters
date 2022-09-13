@@ -59,6 +59,12 @@
     <ClInclude Include="..\..\Source\UE5_02\Game\RollaBallPlayer.h">
       <Filter>Source\UE5_02\Game</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\UE5_02\Game\RollaBallWidget.cpp">
+      <Filter>Source\UE5_02\Game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UE5_02\Game\RollaBallWidget.h">
+      <Filter>Source\UE5_02\Game</Filter>
+    </ClInclude>
     <Filter Include="Source\UE5_02\Items">
       <UniqueIdentifier>{0C5CE2D2-709C-3832-A313-1B66A9C029B8}</UniqueIdentifier>
     </Filter>
