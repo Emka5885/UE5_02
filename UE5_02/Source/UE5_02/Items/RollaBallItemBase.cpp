@@ -3,6 +3,7 @@
 
 #include "RollaBallItemBase.h"
 #include "UE5_02/Game/RollaBallPlayer.h"
+#include <UE5_02/Game/RollaBallGameModeBase.h>
 
 // Sets default values
 ARollaBallItemBase::ARollaBallItemBase()
@@ -36,6 +37,9 @@ void ARollaBallItemBase::OverlapBegin(UPrimitiveComponent* OverlappedComponent, 
 
 void ARollaBallItemBase::Collected_Implementation()
 {
-	// TODO - Do Game Mode Stuffs
-
+	ARollaBallGameModeBase* GameMode = Cast<ARollaBallGameModeBase>(GetWorld()->GetAuthGameMode());
+	if (GameMode)
+	{
+		GameMode->ItemCollected();
+	}
 }
