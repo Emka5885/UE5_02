@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealgame\\inc\\ue5_02\\rollaballgamemodebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\ue5_02\\shipping\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealgame\\shipping\\ue5_02\\definitions.ue5_02.h",
+            "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\source\\ue5_02\\game\\rollaballgamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.0\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\gamemodebase.generated.h",
+            "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealgame\\inc\\ue5_02\\rollaballgamemodebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

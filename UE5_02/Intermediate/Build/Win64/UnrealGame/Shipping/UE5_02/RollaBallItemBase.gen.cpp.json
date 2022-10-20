@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealgame\\inc\\ue5_02\\rollaballitembase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\ue5_02\\shipping\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealgame\\shipping\\ue5_02\\definitions.ue5_02.h",
+            "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\source\\ue5_02\\items\\rollaballitembase.h",
+            "c:\\users\\emi\\documents\\github\\ue5_02\\ue5_02\\intermediate\\build\\win64\\unrealgame\\inc\\ue5_02\\rollaballitembase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
